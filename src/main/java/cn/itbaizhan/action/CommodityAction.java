@@ -1,20 +1,28 @@
 package cn.itbaizhan.action;
 
+import java.util.List;
+import java.util.Map;
+import java.io.File;
+
+
+import javax.servlet.ServletContext;
+
 import cn.itbaizhan.po.Commodity;
-import cn.itbaizhan.po.CommodityClass;
-import cn.itbaizhan.service.CommodityClassService;
-import cn.itbaizhan.service.CommodityService;
-import com.opensymphony.xwork2.ActionContext;
-import com.opensymphony.xwork2.ActionSupport;
 import org.apache.commons.io.FileUtils;
+
+import javax.annotation.Resource;
+
 import org.apache.struts2.ServletActionContext;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.Resource;
-import java.io.File;
-import java.util.List;
-import java.util.Map;
+import cn.itbaizhan.po.CommodityClass;
+import cn.itbaizhan.service.CommodityClassService;
+import cn.itbaizhan.service.CommodityService;
+
+import com.opensymphony.xwork2.ActionContext;
+import com.opensymphony.xwork2.ActionSupport;
+
 
 
 @SuppressWarnings("serial")

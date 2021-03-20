@@ -2,6 +2,7 @@ package cn.itbaizhan.dao.impl;
 
 import cn.itbaizhan.dao.AdminDao;
 import cn.itbaizhan.po.Admin;
+import org.hibernate.SessionFactory;
 import org.springframework.orm.hibernate3.HibernateTemplate;
 import org.springframework.stereotype.Component;
 
@@ -50,7 +51,7 @@ public class AdminDaoImpl implements AdminDao {
 		//String hql = "from User u where u.username=? and u.password=?";
 		//(List<User>)hibernateTemplate.find(hql, values);
 		System.out.println("用户名:"+username);
-		
+
 		return  (Admin) hibernateTemplate.getSessionFactory().openSession().createQuery(
 		"from Admin a where a.username=? and a.password=?").setParameter(0, username).setParameter(1, password).uniqueResult();
 	}

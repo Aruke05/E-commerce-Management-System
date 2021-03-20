@@ -76,7 +76,7 @@ public class UserDaoImpl implements UserDao {
 		"from User u where u.username=? and u.name=? and u.sex=? and u.phone=? and u.post=? and u.address=? and u.email=?").setParameter(
 				0, username).setParameter(1,name).setParameter(2,sex).setParameter(3,phone).setParameter(4,post).setParameter(5,address).setParameter(6,email).uniqueResult();
 
-}
+	}
 
 	
 
