@@ -12,4 +12,4 @@
 - [x] 商品的搜索
 ## 截图
 ![](https://i.loli.net/2021/03/22/GAfXrYt4MKUepL1.png)
-项目演示地址:[点击这里](project.enuyu.net)
+项目演示地址:[点击这里](https://project.enuyu.net/)
