@@ -16,9 +16,9 @@
 	<!-- 配置数据源和数据库连接池 -->
 <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
 	<property name="driverClass" value="com.mysql.jdbc.Driver"/>
-	<property name="jdbcUrl" value="jdbc:mysql://124.156.212.80:3306/enudatabase" />
+	<property name="jdbcUrl" value="jdbc:mysql:///database" />
 	<property name="user" value="root"/>
-	<property name="password" value="Enu04"/>
+	<property name="password" value="root"/>
 	<!--初始化时获取的连接数，取值应在minPoolSize与maxPoolSize之间。Default: 3 -->
         <property name="initialPoolSize" value="1"/>
 	<!--连接池中保留的最小连接数。-->
