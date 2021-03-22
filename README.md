@@ -11,5 +11,5 @@
 - [x] 管理员登录
 - [x] 商品的搜索
 ## 截图
-![](https://i.loli.net/2021/03/22/2Y7wKbJrIPNaluE.png)
+![](https://i.loli.net/2021/03/22/GAfXrYt4MKUepL1.png)
 项目演示地址:[点击这里](project.enuyu.net)
